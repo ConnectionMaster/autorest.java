@@ -1,8 +1,8 @@
 # Java Codegen Report
-Generated at 2021-03-26T19:32:27.524195
+Generated at 2021-03-29T19:25:12.491881
 ## Success
 <details>
-<summary>RP count: 168</summary>
+<summary>RP count: 169</summary>
 
 - EnterpriseKnowledgeGraph
 - addons
@@ -71,6 +71,7 @@ Generated at 2021-03-26T19:32:27.524195
 - domainservices
 - edgeorder
 - elastic
+- engagementfabric
 - eventgrid
 - eventhub
 - extendedlocation
@@ -1112,33 +1113,6 @@ java.lang.IllegalStateException: Duplicate key subscriptionId (attempted merging
 </details>
 
 <details>
-<summary>engagementfabric</summary>
-
-**stdout**
-```
-AutoRest code generation utility [cli version: 3.1.3; node: v14.16.0, max-memory: 2048 MB]
-(C) 2018 Microsoft Corporation.
-https://aka.ms/autorest
-   Loading AutoRest core      '/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist' (3.0.6350)
-
-```
-**stderr**
-```
-(node:12658) UnhandledPromiseRejectionWarning: Error: Unable to acquire shared lock on '/home/runner/.autorest' before timeout 20000 msec.
-    at SharedLock.acquire (/opt/hostedtoolcache/node/14.16.0/x64/lib/node_modules/autorest/dist/vendors-common_temp_node_modules_pnpm_azure-tools_async-io_3_0_253_node_modules_azure-tools_a-338294.js:816:19)
-    at runNextTicks (internal/process/task_queues.js:58:5)
-    at listOnTimeout (internal/timers.js:523:9)
-    at processTimers (internal/timers.js:497:7)
-    at async Function.Create (/opt/hostedtoolcache/node/14.16.0/x64/lib/node_modules/autorest/dist/src_autorest-as-a-service_ts-src_coloring_ts.js:908:61)
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:12658) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
-(node:12658) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-  Error: Unable to acquire exclusive lock on '_home_runner_.autorest.busy-lock' before timeout 20000 msec.
-
-```
-</details>
-
-<details>
 <summary>intune</summary>
 
 **stdout**
@@ -1288,7 +1262,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [IOsmamPolicy, WipeDeviceOperationResult, FlaggedEnrolledApp, Application, GroupItem, AndroidMamPolicy, Device, Location, FlaggedUser, OperationResult]
+INFORMATION (FluentMapper): Add Inner to response types: [FlaggedEnrolledApp, Location, Application, AndroidMamPolicy, OperationResult, IOsmamPolicy, FlaggedUser, WipeDeviceOperationResult, GroupItem, Device]
 
 ```
 **stderr**
@@ -1411,8 +1385,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.458 s
-[INFO] Finished at: 2021-03-26T18:57:15Z
+[INFO] Total time:  4.701 s
+[INFO] Finished at: 2021-03-29T18:52:18Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -1475,8 +1449,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.215 s
-[INFO] Finished at: 2021-03-26T19:06:03Z
+[INFO] Total time:  2.164 s
+[INFO] Finished at: 2021-03-29T19:00:31Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1759,7 +1733,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [SecurityTask, RulesResults, PackageDownloads, Operation, ServerVulnerabilityAssessment, RegulatoryComplianceStandard, WorkspaceSetting, OnPremiseIotSensorsList, IotRecommendationType, ScanResult, ServerVulnerabilityAssessmentsList, AdvancedThreatProtectionSetting, AutomationValidationStatus, IotAlertType, Scan, AdaptiveApplicationControlGroup, OnPremiseIotSensor, IoTSecurityAggregatedRecommendation, InformationProtectionPolicy, AlertsSuppressionRule, IoTSecuritySolutionAnalyticsModel, IotRecommendationTypeList, Device, IotSensorsModel, IotRecommendationModel, SecureScoreControlDefinitionItem, Alert, Automation, TopologyResource, IotSensorsList, ScanResults, JitNetworkAccessRequest, RegulatoryComplianceControl, IotAlert, RuleResults, AdaptiveApplicationControlGroups, Setting, SecuritySolution, IotDefenderSettingsList, DiscoveredSecuritySolution, ConnectorSetting, PricingList, IotSitesModel, SecurityContact, ExternalSecuritySolution, RegulatoryComplianceAssessment, Scans, SecurityAssessment, SecuritySubAssessment, AdaptiveNetworkHardening, IotRecommendation, IotSitesList, AutoProvisioningSetting, IotAlertModel, AscLocation, ComplianceResult, SecureScoreItem, SecuritySolutionsReferenceDataList, SecurityAssessmentMetadata, IotAlertTypeList, JitNetworkAccessPolicy, SecureScoreControlDetails, IoTSecurityAggregatedAlert, DeviceSecurityGroup, IotDefenderSettingsModel, IoTSecuritySolutionModel, Pricing, IoTSecuritySolutionAnalyticsModelList, AllowedConnectionsResource, Compliance]
+INFORMATION (FluentMapper): Add Inner to response types: [PackageDownloads, AutomationValidationStatus, IotRecommendationModel, InformationProtectionPolicy, PricingList, IotAlertModel, IotSitesList, JitNetworkAccessRequest, Pricing, SecureScoreControlDetails, IoTSecuritySolutionAnalyticsModel, Scans, RegulatoryComplianceControl, AscLocation, Operation, IotSensorsModel, JitNetworkAccessPolicy, IotAlert, IotAlertType, Alert, IotRecommendationType, Automation, SecureScoreControlDefinitionItem, AdvancedThreatProtectionSetting, IoTSecurityAggregatedRecommendation, IotSitesModel, AdaptiveApplicationControlGroup, ScanResult, SecurityAssessment, AllowedConnectionsResource, Setting, IoTSecuritySolutionModel, IoTSecuritySolutionAnalyticsModelList, SecurityContact, AutoProvisioningSetting, Compliance, ComplianceResult, Device, DiscoveredSecuritySolution, SecuritySolution, IotRecommendationTypeList, AlertsSuppressionRule, RuleResults, SecuritySolutionsReferenceDataList, TopologyResource, ServerVulnerabilityAssessment, Scan, RegulatoryComplianceAssessment, SecureScoreItem, IotSensorsList, AdaptiveApplicationControlGroups, IotRecommendation, WorkspaceSetting, SecuritySubAssessment, OnPremiseIotSensorsList, ConnectorSetting, IotAlertTypeList, SecurityAssessmentMetadata, ExternalSecuritySolution, IoTSecurityAggregatedAlert, DeviceSecurityGroup, IotDefenderSettingsList, SecurityTask, ScanResults, RegulatoryComplianceStandard, RulesResults, OnPremiseIotSensor, IotDefenderSettingsModel, ServerVulnerabilityAssessmentsList, AdaptiveNetworkHardening]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1945,27 +1919,27 @@ WARNING (PreCheck/SchemaMissingType): The schema 'MachineListMapRequest' with an
 
 WARNING (PreCheck/SchemaMissingType): The schema 'MachineGroupMapRequest' with an undefined type and decalared properties is a bit ambigious. This has been auto-corrected to 'type:object'
 
-WARNING (PreCheck/CheckDuplicateSchemas): Checking for duplicate schemas, this could take a (long) while.  Run with --verbose for more detail.
-
-WARNING (PreCheck/PropertyRedeclarationWarning): Schema 'MachineGroup' has a property 'etag' that is already declared the parent schema 'CoreResource' but isn't significantly different. The property has been removed from MachineGroup
-
 WARNING (PostOperationIdContainsUrlVerb/R2066/SDKViolation): OperationId should contain the verb: 'generatemap' in:'Maps_Generate'. Consider updating the operationId
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:4591:4
+
+WARNING (PreCheck/CheckDuplicateSchemas): Checking for duplicate schemas, this could take a (long) while.  Run with --verbose for more detail.
 
 WARNING (PostOperationIdContainsUrlVerb/R2066/SDKViolation): OperationId should contain the verb: 'machinegroups' in:'MachineGroups_Create'. Consider updating the operationId
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6557:4
 
-WARNING (OperationIdNounVerb/R1001/SDKViolation): Per the Noun_Verb convention for Operation Ids, the noun 'Machines' should not appear after the underscore. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
-    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:3618:4
-
-WARNING (PutInOperationName/R1006/SDKViolation): 'PUT' operation 'MachineGroups_Update' should use method name 'Create'. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
-    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6750:4
+WARNING (PreCheck/PropertyRedeclarationWarning): Schema 'MachineGroup' has a property 'etag' that is already declared the parent schema 'CoreResource' but isn't significantly different. The property has been removed from MachineGroup
 
 WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive and make them hard to use. Consider using string enums with allowed set of values defined. Property: live
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:58:6
 
 WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive and make them hard to use. Consider using string enums with allowed set of values defined. Property: live
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:2097:6
+
+WARNING (OperationIdNounVerb/R1001/SDKViolation): Per the Noun_Verb convention for Operation Ids, the noun 'Machines' should not appear after the underscore. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
+    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:3618:4
+
+WARNING (PutInOperationName/R1006/SDKViolation): 'PUT' operation 'MachineGroups_Update' should use method name 'Create'. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
+    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6750:4
 
 WARNING (XmsEnumValidation/R2018/SDKViolation): The enum types should have x-ms-enum type extension set with appropriate options. Property name: kind
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6937:4
@@ -2041,7 +2015,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [Port, MachinesSummary, MapResponse, MachineGroup, Liveness, ClientGroup, Machine, ClientGroupMember, Process, Connection, ClientGroupMembersCount]
+INFORMATION (FluentMapper): Add Inner to response types: [ClientGroup, Machine, Port, MachineGroup, MapResponse, Connection, ClientGroupMember, ClientGroupMembersCount, Liveness, Process, MachinesSummary]
 INFORMATION (FluentGen): Java template for client model
 INFORMATION (FluentGen): Process for Fluent Lite, SDK integration disabled
 INFORMATION (FluentJavaSettings): Option, string, tag : package-2015-11-preview
@@ -2060,12 +2034,12 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24287) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24016) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24287) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24287) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24016) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24016) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
@@ -2136,8 +2110,8 @@ FATAL: [object Object]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.811 s
-[INFO] Finished at: 2021-03-26T19:15:55Z
+[INFO] Total time:  4.152 s
+[INFO] Finished at: 2021-03-29T19:09:49Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-servicefabric-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/fluent/OperationsClient.java:[45,41] method list() is already defined in interface azure.resourcemanager.servicefabric.fluent.OperationsClient
