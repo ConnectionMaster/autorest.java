@@ -1,5 +1,5 @@
 # Java Codegen Report
-Generated at 2021-04-28T19:32:48.926725
+Generated at 2021-04-29T19:30:29.774209
 ## Success
 <details>
 <summary>RP count: 175</summary>
@@ -271,8 +271,8 @@ FATAL: Error: Name is empty!
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.760 s
-[INFO] Finished at: 2021-04-28T18:17:20Z
+[INFO] Total time:  4.814 s
+[INFO] Finished at: 2021-04-29T18:16:18Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-applicationinsights-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-applicationinsights/src/main/java/azure/resourcemanager/applicationinsights/fluent/OperationsClient.java:[46,39] method list() is already defined in interface azure.resourcemanager.applicationinsights.fluent.OperationsClient
@@ -1217,8 +1217,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.645 s
-[INFO] Finished at: 2021-04-28T18:56:26Z
+[INFO] Total time:  5.048 s
+[INFO] Finished at: 2021-04-29T18:55:49Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -1281,8 +1281,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.322 s
-[INFO] Finished at: 2021-04-28T19:05:12Z
+[INFO] Total time:  2.236 s
+[INFO] Finished at: 2021-04-29T19:04:17Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1565,7 +1565,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [WorkspaceSetting, SecurityAssessmentMetadata, AdaptiveApplicationControlGroups, DiscoveredSecuritySolution, DeviceSecurityGroup, Scans, AscLocation, SecureScoreControlDetails, Compliance, IotSensorsModel, PricingList, AdvancedThreatProtectionSetting, AdaptiveApplicationControlGroup, OnPremiseIotSensorsList, ScanResult, IotRecommendation, OnPremiseIotSensor, RuleResults, IoTSecuritySolutionModel, IotAlertTypeList, Scan, PackageDownloads, Pricing, JitNetworkAccessRequest, RulesResults, IotAlert, RegulatoryComplianceStandard, IotSitesList, ScanResults, AlertsSuppressionRule, IotSitesModel, IoTSecuritySolutionAnalyticsModel, TopologyResource, IotSensorsList, IotDefenderSettingsModel, AutoProvisioningSetting, Device, Automation, InformationProtectionPolicy, IoTSecuritySolutionAnalyticsModelList, ServerVulnerabilityAssessmentsList, Operation, IotDefenderSettingsList, IoTSecurityAggregatedRecommendation, Alert, RegulatoryComplianceAssessment, IotRecommendationTypeList, ExternalSecuritySolution, IotRecommendationModel, IotAlertType, SecuritySolutionsReferenceDataList, ConnectorSetting, RegulatoryComplianceControl, ComplianceResult, SecuritySolution, Setting, SecuritySubAssessment, AutomationValidationStatus, SecurityTask, AdaptiveNetworkHardening, SecureScoreControlDefinitionItem, SecureScoreItem, SecurityAssessment, ServerVulnerabilityAssessment, SecurityContact, JitNetworkAccessPolicy, IoTSecurityAggregatedAlert, IotRecommendationType, AllowedConnectionsResource, IotAlertModel]
+INFORMATION (FluentMapper): Add Inner to response types: [Operation, IoTSecurityAggregatedRecommendation, IotSensorsList, PricingList, JitNetworkAccessRequest, IotAlert, IotRecommendationModel, RegulatoryComplianceStandard, Automation, SecurityTask, IotSitesModel, IotSensorsModel, SecureScoreItem, IotRecommendationType, IoTSecuritySolutionAnalyticsModel, SecuritySolution, ConnectorSetting, ScanResult, AutoProvisioningSetting, Device, IotDefenderSettingsModel, ComplianceResult, IotAlertTypeList, IotAlertModel, AlertsSuppressionRule, AdaptiveApplicationControlGroup, IotDefenderSettingsList, IotRecommendation, Scan, Scans, InformationProtectionPolicy, OnPremiseIotSensor, Compliance, DiscoveredSecuritySolution, WorkspaceSetting, SecurityAssessmentMetadata, SecureScoreControlDefinitionItem, IotSitesList, IoTSecuritySolutionModel, RuleResults, SecureScoreControlDetails, DeviceSecurityGroup, RegulatoryComplianceAssessment, Alert, IoTSecurityAggregatedAlert, Setting, SecurityAssessment, IotAlertType, ExternalSecuritySolution, AdaptiveNetworkHardening, ScanResults, RegulatoryComplianceControl, AdvancedThreatProtectionSetting, SecuritySubAssessment, RulesResults, AutomationValidationStatus, SecuritySolutionsReferenceDataList, IoTSecuritySolutionAnalyticsModelList, JitNetworkAccessPolicy, SecurityContact, AdaptiveApplicationControlGroups, IotRecommendationTypeList, TopologyResource, OnPremiseIotSensorsList, AscLocation, ServerVulnerabilityAssessment, Pricing, PackageDownloads, AllowedConnectionsResource, ServerVulnerabilityAssessmentsList]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1847,7 +1847,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [ClientGroupMember, ClientGroup, MachineGroup, ClientGroupMembersCount, Process, Liveness, Port, MapResponse, MachinesSummary, Machine, Connection]
+INFORMATION (FluentMapper): Add Inner to response types: [ClientGroupMember, ClientGroup, MachinesSummary, Machine, Liveness, Connection, Port, MachineGroup, Process, ClientGroupMembersCount, MapResponse]
 INFORMATION (FluentGen): Java template for client model
 INFORMATION (FluentGen): Process for Fluent Lite, SDK integration disabled
 INFORMATION (FluentJavaSettings): Option, string, tag : package-2015-11-preview
@@ -1866,12 +1866,12 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24563) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24484) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24563) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24563) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24484) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24484) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
@@ -1942,8 +1942,8 @@ FATAL: [object Object]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.522 s
-[INFO] Finished at: 2021-04-28T19:15:03Z
+[INFO] Total time:  4.799 s
+[INFO] Finished at: 2021-04-29T19:13:56Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-servicefabric-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/fluent/OperationsClient.java:[45,41] method list() is already defined in interface azure.resourcemanager.servicefabric.fluent.OperationsClient
@@ -2032,8 +2032,8 @@ FATAL: [object Object]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.581 s
-[INFO] Finished at: 2021-04-28T19:26:56Z
+[INFO] Total time:  3.602 s
+[INFO] Finished at: 2021-04-29T19:24:54Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-videoanalyzer-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/fluent/AzureVideoAnalyzer.java:[38,12] method getEndpoint() is already defined in interface azure.resourcemanager.videoanalyzer.fluent.AzureVideoAnalyzer
