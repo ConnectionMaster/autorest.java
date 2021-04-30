@@ -1,8 +1,8 @@
 # Java Codegen Report
-Generated at 2021-04-29T19:30:29.774209
+Generated at 2021-04-30T19:33:27.382287
 ## Success
 <details>
-<summary>RP count: 175</summary>
+<summary>RP count: 176</summary>
 
 - EnterpriseKnowledgeGraph
 - addons
@@ -171,6 +171,7 @@ Generated at 2021-04-29T19:30:29.774209
 - testbase
 - timeseriesinsights
 - trafficmanager
+- videoanalyzer
 - visualstudio
 - vmware
 - vmwarecloudsimple
@@ -189,7 +190,6 @@ Generated at 2021-04-29T19:30:29.774209
 - monitor
 - providerhub
 - servicefabric
-- videoanalyzer
 
 ## Logs
 <details>
@@ -271,8 +271,8 @@ FATAL: Error: Name is empty!
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.814 s
-[INFO] Finished at: 2021-04-29T18:16:18Z
+[INFO] Total time:  4.225 s
+[INFO] Finished at: 2021-04-30T18:23:24Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-applicationinsights-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-applicationinsights/src/main/java/azure/resourcemanager/applicationinsights/fluent/OperationsClient.java:[46,39] method list() is already defined in interface azure.resourcemanager.applicationinsights.fluent.OperationsClient
@@ -1118,7 +1118,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [FlaggedUser, Location, Application, GroupItem, AndroidMamPolicy, OperationResult, WipeDeviceOperationResult, FlaggedEnrolledApp, Device, IOsmamPolicy]
+INFORMATION (FluentMapper): Add Inner to response types: [FlaggedEnrolledApp, Location, Application, AndroidMamPolicy, OperationResult, IOsmamPolicy, FlaggedUser, WipeDeviceOperationResult, GroupItem, Device]
 
 ```
 **stderr**
@@ -1217,8 +1217,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.048 s
-[INFO] Finished at: 2021-04-29T18:55:49Z
+[INFO] Total time:  4.842 s
+[INFO] Finished at: 2021-04-30T18:59:20Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -1281,8 +1281,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.236 s
-[INFO] Finished at: 2021-04-29T19:04:17Z
+[INFO] Total time:  2.218 s
+[INFO] Finished at: 2021-04-30T19:07:29Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1565,7 +1565,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [Operation, IoTSecurityAggregatedRecommendation, IotSensorsList, PricingList, JitNetworkAccessRequest, IotAlert, IotRecommendationModel, RegulatoryComplianceStandard, Automation, SecurityTask, IotSitesModel, IotSensorsModel, SecureScoreItem, IotRecommendationType, IoTSecuritySolutionAnalyticsModel, SecuritySolution, ConnectorSetting, ScanResult, AutoProvisioningSetting, Device, IotDefenderSettingsModel, ComplianceResult, IotAlertTypeList, IotAlertModel, AlertsSuppressionRule, AdaptiveApplicationControlGroup, IotDefenderSettingsList, IotRecommendation, Scan, Scans, InformationProtectionPolicy, OnPremiseIotSensor, Compliance, DiscoveredSecuritySolution, WorkspaceSetting, SecurityAssessmentMetadata, SecureScoreControlDefinitionItem, IotSitesList, IoTSecuritySolutionModel, RuleResults, SecureScoreControlDetails, DeviceSecurityGroup, RegulatoryComplianceAssessment, Alert, IoTSecurityAggregatedAlert, Setting, SecurityAssessment, IotAlertType, ExternalSecuritySolution, AdaptiveNetworkHardening, ScanResults, RegulatoryComplianceControl, AdvancedThreatProtectionSetting, SecuritySubAssessment, RulesResults, AutomationValidationStatus, SecuritySolutionsReferenceDataList, IoTSecuritySolutionAnalyticsModelList, JitNetworkAccessPolicy, SecurityContact, AdaptiveApplicationControlGroups, IotRecommendationTypeList, TopologyResource, OnPremiseIotSensorsList, AscLocation, ServerVulnerabilityAssessment, Pricing, PackageDownloads, AllowedConnectionsResource, ServerVulnerabilityAssessmentsList]
+INFORMATION (FluentMapper): Add Inner to response types: [SecurityTask, RulesResults, PackageDownloads, Operation, ServerVulnerabilityAssessment, RegulatoryComplianceStandard, WorkspaceSetting, OnPremiseIotSensorsList, IotRecommendationType, ScanResult, ServerVulnerabilityAssessmentsList, AdvancedThreatProtectionSetting, AutomationValidationStatus, IotAlertType, Scan, AdaptiveApplicationControlGroup, OnPremiseIotSensor, IoTSecurityAggregatedRecommendation, InformationProtectionPolicy, AlertsSuppressionRule, IoTSecuritySolutionAnalyticsModel, IotRecommendationTypeList, Device, IotSensorsModel, IotRecommendationModel, SecureScoreControlDefinitionItem, Alert, Automation, TopologyResource, IotSensorsList, ScanResults, JitNetworkAccessRequest, RegulatoryComplianceControl, IotAlert, RuleResults, AdaptiveApplicationControlGroups, Setting, SecuritySolution, IotDefenderSettingsList, DiscoveredSecuritySolution, ConnectorSetting, PricingList, IotSitesModel, SecurityContact, ExternalSecuritySolution, RegulatoryComplianceAssessment, Scans, SecurityAssessment, SecuritySubAssessment, AdaptiveNetworkHardening, IotRecommendation, IotSitesList, AutoProvisioningSetting, IotAlertModel, AscLocation, ComplianceResult, SecureScoreItem, SecuritySolutionsReferenceDataList, SecurityAssessmentMetadata, IotAlertTypeList, JitNetworkAccessPolicy, SecureScoreControlDetails, IoTSecurityAggregatedAlert, DeviceSecurityGroup, IotDefenderSettingsModel, IoTSecuritySolutionModel, Pricing, IoTSecuritySolutionAnalyticsModelList, AllowedConnectionsResource, Compliance]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1847,7 +1847,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [ClientGroupMember, ClientGroup, MachinesSummary, Machine, Liveness, Connection, Port, MachineGroup, Process, ClientGroupMembersCount, MapResponse]
+INFORMATION (FluentMapper): Add Inner to response types: [Port, MapResponse, Process, Connection, Liveness, ClientGroupMember, ClientGroup, ClientGroupMembersCount, MachineGroup, Machine, MachinesSummary]
 INFORMATION (FluentGen): Java template for client model
 INFORMATION (FluentGen): Process for Fluent Lite, SDK integration disabled
 INFORMATION (FluentJavaSettings): Option, string, tag : package-2015-11-preview
@@ -1866,12 +1866,12 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24484) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24176) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24484) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24484) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24176) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24176) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
@@ -1942,8 +1942,8 @@ FATAL: [object Object]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.799 s
-[INFO] Finished at: 2021-04-29T19:13:56Z
+[INFO] Total time:  4.140 s
+[INFO] Finished at: 2021-04-30T19:16:42Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-servicefabric-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/fluent/OperationsClient.java:[45,41] method list() is already defined in interface azure.resourcemanager.servicefabric.fluent.OperationsClient
@@ -1985,63 +1985,6 @@ FATAL: [object Object]
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/implementation/OperationsImpl.java:[54,43] method list(com.azure.core.util.Context) is already defined in class azure.resourcemanager.servicefabric.implementation.OperationsImpl
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/implementation/OperationsImpl.java:[59,43] method list() is already defined in class azure.resourcemanager.servicefabric.implementation.OperationsImpl
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/implementation/OperationsImpl.java:[64,43] method list(com.azure.core.util.Context) is already defined in class azure.resourcemanager.servicefabric.implementation.OperationsImpl
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-
-```
-**stderr**
-```
-
-```
-</details>
-
-<details>
-<summary>videoanalyzer</summary>
-
-**stdout**
-```
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --< com.azure.resourcemanager:azure-resourcemanager-videoanalyzer-generated >--
-[INFO] Building Microsoft Azure SDK for Videoanalyzer Management 1.0.0-beta.1
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ azure-resourcemanager-videoanalyzer-generated ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ azure-resourcemanager-videoanalyzer-generated ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 107 source files to /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/fluent/AzureVideoAnalyzer.java:[38,12] method getEndpoint() is already defined in interface azure.resourcemanager.videoanalyzer.fluent.AzureVideoAnalyzer
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[83,26] variable endpoint is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerImpl
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[90,19] method getEndpoint() is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerImpl
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[220,16] variable endpoint is already defined in constructor AzureVideoAnalyzerImpl(com.azure.core.http.HttpPipeline,com.azure.core.util.serializer.SerializerAdapter,java.time.Duration,com.azure.core.management.AzureEnvironment,java.lang.String,java.lang.String,java.lang.String)
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerBuilder.java:[56,20] variable endpoint is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerBuilder
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerBuilder.java:[64,38] method endpoint(java.lang.String) is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerBuilder
-[INFO] 6 errors 
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.602 s
-[INFO] Finished at: 2021-04-29T19:24:54Z
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-videoanalyzer-generated: Compilation failure: Compilation failure: 
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/fluent/AzureVideoAnalyzer.java:[38,12] method getEndpoint() is already defined in interface azure.resourcemanager.videoanalyzer.fluent.AzureVideoAnalyzer
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[83,26] variable endpoint is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerImpl
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[90,19] method getEndpoint() is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerImpl
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerImpl.java:[220,16] variable endpoint is already defined in constructor AzureVideoAnalyzerImpl(com.azure.core.http.HttpPipeline,com.azure.core.util.serializer.SerializerAdapter,java.time.Duration,com.azure.core.management.AzureEnvironment,java.lang.String,java.lang.String,java.lang.String)
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerBuilder.java:[56,20] variable endpoint is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerBuilder
-[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-videoanalyzer/src/main/java/azure/resourcemanager/videoanalyzer/implementation/AzureVideoAnalyzerBuilder.java:[64,38] method endpoint(java.lang.String) is already defined in class azure.resourcemanager.videoanalyzer.implementation.AzureVideoAnalyzerBuilder
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
