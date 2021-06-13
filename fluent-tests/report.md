@@ -1,5 +1,5 @@
 # Java Codegen Report
-Generated at 2021-06-12T19:24:35.628242
+Generated at 2021-06-13T19:16:53.696409
 ## Success
 <details>
 <summary>RP count: 179</summary>
@@ -920,7 +920,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [ExposureControlResponse, PrivateEndpointConnectionResource, TriggerQueryResponse, IntegrationRuntimeNodeIpAddress, DataFlowDebugCommandResponse, IntegrationRuntimeResource, CreateDataFlowDebugSessionResponse, Factory, DataFlowResource, PrivateLinkResourcesWrapper, PipelineRunsQueryResponse, SsisObjectMetadataStatusResponse, TriggerRunsQueryResponse, ActivityRunsQueryResponse, CreateRunResponse, DatasetResource, ManagedPrivateEndpointResource, AccessPolicyResponse, DataFlowDebugSessionInfo, TriggerResource, Operation, SsisObjectMetadataListResponse, TriggerSubscriptionOperationStatus, IntegrationRuntimeMonitoringData, IntegrationRuntimeStatusResponse, IntegrationRuntimeAuthKeys, GitHubAccessTokenResponse, SelfHostedIntegrationRuntimeNode, LinkedServiceResource, ExposureControlBatchResponse, PipelineResource, PipelineRun, ManagedVirtualNetworkResource, AddDataFlowToDebugSessionResponse, IntegrationRuntimeConnectionInfo]
+INFORMATION (FluentMapper): Add Inner to response types: [PrivateEndpointConnectionResource, DatasetResource, DataFlowResource, IntegrationRuntimeMonitoringData, Operation, ManagedVirtualNetworkResource, ExposureControlBatchResponse, IntegrationRuntimeStatusResponse, IntegrationRuntimeAuthKeys, DataFlowDebugCommandResponse, TriggerQueryResponse, PipelineRun, ExposureControlResponse, CreateRunResponse, TriggerResource, PipelineRunsQueryResponse, PipelineResource, DataFlowDebugSessionInfo, SsisObjectMetadataStatusResponse, ActivityRunsQueryResponse, SelfHostedIntegrationRuntimeNode, IntegrationRuntimeResource, GitHubAccessTokenResponse, Factory, AddDataFlowToDebugSessionResponse, AccessPolicyResponse, TriggerSubscriptionOperationStatus, CreateDataFlowDebugSessionResponse, PrivateLinkResourcesWrapper, SsisObjectMetadataListResponse, ManagedPrivateEndpointResource, LinkedServiceResource, IntegrationRuntimeConnectionInfo, TriggerRunsQueryResponse, IntegrationRuntimeNodeIpAddress]
 
 ```
 **stderr**
@@ -1135,7 +1135,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [IOsmamPolicy, WipeDeviceOperationResult, FlaggedEnrolledApp, Application, GroupItem, AndroidMamPolicy, Device, Location, FlaggedUser, OperationResult]
+INFORMATION (FluentMapper): Add Inner to response types: [OperationResult, FlaggedEnrolledApp, AndroidMamPolicy, IOsmamPolicy, GroupItem, Location, Device, WipeDeviceOperationResult, FlaggedUser, Application]
 
 ```
 **stderr**
@@ -1234,8 +1234,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.833 s
-[INFO] Finished at: 2021-06-12T18:50:34Z
+[INFO] Total time:  4.040 s
+[INFO] Finished at: 2021-06-13T18:45:23Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -1485,8 +1485,8 @@ java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.170 s
-[INFO] Finished at: 2021-06-12T18:58:27Z
+[INFO] Total time:  1.900 s
+[INFO] Finished at: 2021-06-13T18:52:49Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1778,7 +1778,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [IotAlertTypeList, WorkspaceSetting, SecurityTask, AdaptiveApplicationControlGroups, ServerVulnerabilityAssessmentsList, SecurityContact, IoTSecurityAggregatedRecommendation, IotDefenderSettingsModel, IotAlertModel, Software, AutoProvisioningSetting, IoTSecuritySolutionModel, IoTSecurityAggregatedAlert, IngestionSetting, IotSitesModel, Setting, ConnectionStrings, Automation, Scan, SecurityAssessment, ScanResult, IotDefenderSettingsList, ComplianceResult, IotRecommendationType, SecurityAssessmentMetadata, ConnectorSetting, ServerVulnerabilityAssessment, ExternalSecuritySolution, ScanResults, IngestionSettingToken, IoTSecuritySolutionAnalyticsModelList, DeviceSecurityGroup, JitNetworkAccessRequest, AdvancedThreatProtectionSetting, InformationProtectionPolicy, RegulatoryComplianceControl, DiscoveredSecuritySolution, AllowedConnectionsResource, Compliance, SecureScoreControlDetails, RulesResults, OnPremiseIotSensorsList, IotRecommendation, JitNetworkAccessPolicy, TopologyResource, Pricing, AdaptiveApplicationControlGroup, IotAlert, IotSitesList, SecureScoreItem, SecuritySubAssessment, IotSensorsModel, IotAlertType, IotRecommendationTypeList, Scans, SecuritySolution, RegulatoryComplianceAssessment, IoTSecuritySolutionAnalyticsModel, SecureScoreControlDefinitionItem, IotSensorsList, Alert, RuleResults, PricingList, IotRecommendationModel, AlertsSuppressionRule, Operation, RegulatoryComplianceStandard, SecuritySolutionsReferenceDataList, AutomationValidationStatus, PackageDownloads, OnPremiseIotSensor, AscLocation, AdaptiveNetworkHardening, Device]
+INFORMATION (FluentMapper): Add Inner to response types: [IotAlert, Pricing, IotRecommendationTypeList, Compliance, Software, RulesResults, IotRecommendationType, Operation, AdaptiveApplicationControlGroups, SecureScoreItem, JitNetworkAccessRequest, SecuritySubAssessment, ScanResults, ServerVulnerabilityAssessment, IotSensorsModel, OnPremiseIotSensorsList, ConnectorSetting, Alert, SecuritySolution, WorkspaceSetting, ExternalSecuritySolution, RegulatoryComplianceStandard, SecurityAssessment, OnPremiseIotSensor, ServerVulnerabilityAssessmentsList, SecureScoreControlDetails, DiscoveredSecuritySolution, ScanResult, AdaptiveApplicationControlGroup, InformationProtectionPolicy, AutomationValidationStatus, IoTSecuritySolutionAnalyticsModel, IotSitesList, IoTSecurityAggregatedRecommendation, AscLocation, ConnectionStrings, RuleResults, IotDefenderSettingsModel, Setting, PackageDownloads, IotDefenderSettingsList, Automation, IotRecommendationModel, IotAlertModel, AlertsSuppressionRule, IngestionSettingToken, DeviceSecurityGroup, IoTSecurityAggregatedAlert, IngestionSetting, AutoProvisioningSetting, Scans, RegulatoryComplianceAssessment, IotAlertType, Scan, SecureScoreControlDefinitionItem, SecuritySolutionsReferenceDataList, IotAlertTypeList, JitNetworkAccessPolicy, AllowedConnectionsResource, TopologyResource, IoTSecuritySolutionAnalyticsModelList, IoTSecuritySolutionModel, IotSensorsList, IotSitesModel, SecurityContact, SecurityAssessmentMetadata, RegulatoryComplianceControl, AdaptiveNetworkHardening, AdvancedThreatProtectionSetting, SecurityTask, PricingList, IotRecommendation, ComplianceResult, Device]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -2079,12 +2079,14 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24414) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24297) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
+    at runNextTicks (internal/process/task_queues.js:60:5)
+    at processImmediate (internal/timers.js:435:9)
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24414) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24414) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24297) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24297) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
@@ -2155,8 +2157,8 @@ FATAL: [object Object]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.003 s
-[INFO] Finished at: 2021-06-12T19:07:55Z
+[INFO] Total time:  3.847 s
+[INFO] Finished at: 2021-06-13T19:01:18Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-servicefabric-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-servicefabric/src/main/java/azure/resourcemanager/servicefabric/fluent/OperationsClient.java:[45,41] method list() is already defined in interface azure.resourcemanager.servicefabric.fluent.OperationsClient
