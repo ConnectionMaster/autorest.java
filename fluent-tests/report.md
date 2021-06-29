@@ -1,5 +1,5 @@
 # Java Codegen Report
-Generated at 2021-06-28T19:36:11.755192
+Generated at 2021-06-29T19:49:29.424561
 ## Success
 <details>
 <summary>RP count: 180</summary>
@@ -555,8 +555,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.311 s
-[INFO] Finished at: 2021-06-28T19:01:59Z
+[INFO] Total time:  6.201 s
+[INFO] Finished at: 2021-06-29T19:04:49Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -806,8 +806,8 @@ java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.882 s
-[INFO] Finished at: 2021-06-28T19:09:54Z
+[INFO] Total time:  2.341 s
+[INFO] Finished at: 2021-06-29T19:15:01Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1085,7 +1085,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [IoTSecuritySolutionModel, ConnectionStrings, AdaptiveApplicationControlGroup, OnPremiseIotSensorsList, ExternalSecuritySolution, TopologyResource, Pricing, AscLocation, ComplianceResult, IotSensorsList, SecurityContact, AdaptiveApplicationControlGroups, SecureScoreControlDetails, InformationProtectionPolicy, RegulatoryComplianceAssessment, IngestionSettingToken, ScanResult, IotSitesList, JitNetworkAccessRequest, Automation, IotDefenderSettingsList, IotSitesModel, IngestionSetting, AutoProvisioningSetting, Scans, OnPremiseIotSensor, SecureScoreItem, Operation, SecurityTask, IotRecommendationTypeList, AdaptiveNetworkHardening, DeviceSecurityGroup, IotAlertType, AlertsSuppressionRule, IoTSecurityAggregatedAlert, SecurityAssessment, ScanResults, SecureScoreControlDefinitionItem, DiscoveredSecuritySolution, IotSensorsModel, IoTSecuritySolutionAnalyticsModelList, SecuritySolutionsReferenceDataList, RegulatoryComplianceStandard, PricingList, RuleResults, RulesResults, Device, RegulatoryComplianceControl, IotAlertModel, ConnectorSetting, ServerVulnerabilityAssessmentsList, IoTSecuritySolutionAnalyticsModel, SecurityAssessmentMetadata, IotRecommendationType, PackageDownloads, SecuritySolution, IotDefenderSettingsModel, Alert, IotAlertTypeList, IotRecommendationModel, Scan, ServerVulnerabilityAssessment, WorkspaceSetting, Software, AutomationValidationStatus, AdvancedThreatProtectionSetting, Setting, JitNetworkAccessPolicy, IoTSecurityAggregatedRecommendation, Compliance, SecuritySubAssessment, AllowedConnectionsResource]
+INFORMATION (FluentMapper): Add Inner to response types: [DiscoveredSecuritySolution, InformationProtectionPolicy, ComplianceResult, SecurityTask, ScanResults, PricingList, IoTSecuritySolutionModel, AdaptiveApplicationControlGroup, Scan, RuleResults, IoTSecurityAggregatedAlert, IotRecommendationModel, RegulatoryComplianceStandard, Compliance, IotSitesModel, DeviceSecurityGroup, AdvancedThreatProtectionSetting, Operation, IotAlertModel, IngestionSetting, IotDefenderSettingsModel, PackageDownloads, IngestionSettingToken, Software, SecureScoreControlDetails, SecuritySolutionsReferenceDataList, JitNetworkAccessRequest, ExternalSecuritySolution, ServerVulnerabilityAssessment, OnPremiseIotSensor, ConnectionStrings, IotSensorsList, Pricing, SecurityAssessmentMetadata, SecureScoreItem, Automation, ServerVulnerabilityAssessmentsList, Device, AutoProvisioningSetting, RegulatoryComplianceAssessment, AscLocation, IotAlertType, RulesResults, SecuritySolution, Setting, TopologyResource, WorkspaceSetting, ConnectorSetting, IotSitesList, OnPremiseIotSensorsList, IotRecommendationType, SecurityContact, IotSensorsModel, Alert, IotDefenderSettingsList, AutomationValidationStatus, SecureScoreControlDefinitionItem, AdaptiveNetworkHardening, JitNetworkAccessPolicy, ScanResult, IotRecommendationTypeList, IoTSecurityAggregatedRecommendation, Scans, SecuritySubAssessment, IoTSecuritySolutionAnalyticsModel, AllowedConnectionsResource, IoTSecuritySolutionAnalyticsModelList, IotAlertTypeList, SecurityAssessment, AdaptiveApplicationControlGroups, RegulatoryComplianceControl, AlertsSuppressionRule]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1287,12 +1287,6 @@ WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive 
 WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive and make them hard to use. Consider using string enums with allowed set of values defined. Property: live
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:2097:6
 
-WARNING (OperationIdNounVerb/R1001/SDKViolation): Per the Noun_Verb convention for Operation Ids, the noun 'Machines' should not appear after the underscore. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
-    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:3618:4
-
-WARNING (PutInOperationName/R1006/SDKViolation): 'PUT' operation 'MachineGroups_Update' should use method name 'Create'. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
-    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6750:4
-
 WARNING (XmsEnumValidation/R2018/SDKViolation): The enum types should have x-ms-enum type extension set with appropriate options. Property name: kind
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6937:4
 
@@ -1326,6 +1320,9 @@ WARNING (DescriptionAndTitleMissing/R4000/SDKViolation): 'properties' model/prop
 WARNING (DescriptionAndTitleMissing/R4000/SDKViolation): 'properties' model/property lacks 'description' and 'title' property. Consider adding a 'description'/'title' element. Accurate description/title is essential for maintaining reference documentation.
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:7471:4
 
+WARNING (OperationIdNounVerb/R1001/SDKViolation): Per the Noun_Verb convention for Operation Ids, the noun 'Machines' should not appear after the underscore. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
+    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:3618:4
+
 WARNING (DescriptionAndTitleMissing/R4000/SDKViolation): 'nodes' model/property lacks 'description' and 'title' property. Consider adding a 'description'/'title' element. Accurate description/title is essential for maintaining reference documentation.
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:8398:4
 
@@ -1337,6 +1334,9 @@ WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive 
 
 WARNING (EnumInsteadOfBoolean/R3018/ARMViolation): Booleans are not descriptive and make them hard to use. Consider using string enums with allowed set of values defined. Property: filterProcesses
     - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:8490:4
+
+WARNING (PutInOperationName/R1006/SDKViolation): 'PUT' operation 'MachineGroups_Update' should use method name 'Create'. Note: If you have already shipped an SDK on top of this spec, fixing this warning may introduce a breaking change.
+    - file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json:6750:4
 INFORMATION (FluentNamer): Load fluent settings
 INFORMATION (FluentJavaSettings): Option, string, add-inner : null
 INFORMATION (FluentJavaSettings): Option, string, remove-inner : null
@@ -1386,12 +1386,12 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24527) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:25263) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24527) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24527) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:25263) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:25263) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
