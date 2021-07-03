@@ -1,5 +1,5 @@
 # Java Codegen Report
-Generated at 2021-07-02T19:33:46.451745
+Generated at 2021-07-03T19:19:24.252642
 ## Success
 <details>
 <summary>RP count: 180</summary>
@@ -555,8 +555,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.840 s
-[INFO] Finished at: 2021-07-02T18:55:56Z
+[INFO] Total time:  4.822 s
+[INFO] Finished at: 2021-07-03T18:47:02Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -806,8 +806,8 @@ java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.288 s
-[INFO] Finished at: 2021-07-02T19:04:48Z
+[INFO] Total time:  1.763 s
+[INFO] Finished at: 2021-07-03T18:54:37Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1085,7 +1085,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [SecurityAssessmentMetadata, IotAlertTypeList, AutoProvisioningSetting, PackageDownloads, Setting, ExternalSecuritySolution, Automation, IotDefenderSettingsList, AdvancedThreatProtectionSetting, SecuritySubAssessment, SecuritySolution, IotSensorsModel, IotAlertType, IoTSecurityAggregatedAlert, TopologyResource, DeviceSecurityGroup, AdaptiveApplicationControlGroups, IotSitesModel, IoTSecuritySolutionAnalyticsModelList, SecurityTask, SecurityAssessment, RulesResults, WorkspaceSetting, IotRecommendationTypeList, IngestionSettingToken, RegulatoryComplianceStandard, OnPremiseIotSensor, Alert, Device, SecurityContact, Compliance, Scans, InformationProtectionPolicy, AllowedConnectionsResource, IotRecommendationType, IoTSecurityAggregatedRecommendation, IotDefenderSettingsModel, IotRecommendationModel, AlertsSuppressionRule, AutomationValidationStatus, AdaptiveApplicationControlGroup, OnPremiseIotSensorsList, RuleResults, IotAlertModel, ScanResult, DiscoveredSecuritySolution, AscLocation, RegulatoryComplianceControl, ConnectionStrings, IngestionSetting, SecureScoreItem, SecureScoreControlDetails, SecuritySolutionsReferenceDataList, IotSensorsList, IoTSecuritySolutionModel, ServerVulnerabilityAssessmentsList, IotSitesList, Scan, Operation, JitNetworkAccessPolicy, JitNetworkAccessRequest, Software, IoTSecuritySolutionAnalyticsModel, RegulatoryComplianceAssessment, ScanResults, ServerVulnerabilityAssessment, Pricing, ComplianceResult, AdaptiveNetworkHardening, SecureScoreControlDefinitionItem, PricingList, ConnectorSetting]
+INFORMATION (FluentMapper): Add Inner to response types: [IoTSecuritySolutionModel, AllowedConnectionsResource, Pricing, IoTSecuritySolutionAnalyticsModelList, RuleResults, AdaptiveApplicationControlGroups, IngestionSettingToken, Alert, TopologyResource, OnPremiseIotSensorsList, AdvancedThreatProtectionSetting, OnPremiseIotSensor, AutomationValidationStatus, PricingList, Scan, RulesResults, RegulatoryComplianceAssessment, ConnectionStrings, IoTSecurityAggregatedRecommendation, ScanResults, DiscoveredSecuritySolution, InformationProtectionPolicy, ScanResult, PackageDownloads, IoTSecuritySolutionAnalyticsModel, AscLocation, SecuritySubAssessment, JitNetworkAccessRequest, SecureScoreControlDefinitionItem, IotAlertTypeList, AdaptiveNetworkHardening, WorkspaceSetting, RegulatoryComplianceStandard, IngestionSetting, Automation, IoTSecurityAggregatedAlert, SecuritySolution, Compliance, Device, ConnectorSetting, IotRecommendationModel, SecureScoreControlDetails, IotRecommendationTypeList, AutoProvisioningSetting, IotDefenderSettingsList, IotSitesModel, SecurityAssessment, SecurityAssessmentMetadata, ExternalSecuritySolution, IotSitesList, IotAlertModel, ServerVulnerabilityAssessmentsList, JitNetworkAccessPolicy, IotRecommendationType, ServerVulnerabilityAssessment, RegulatoryComplianceControl, ComplianceResult, DeviceSecurityGroup, Scans, SecurityContact, AlertsSuppressionRule, IotSensorsModel, Setting, SecurityTask, Software, IotSensorsList, SecuritySolutionsReferenceDataList, AdaptiveApplicationControlGroup, SecureScoreItem, IotAlertType, Operation, IotDefenderSettingsModel]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1367,7 +1367,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [Port, MapResponse, Process, Connection, Liveness, ClientGroupMember, ClientGroup, ClientGroupMembersCount, MachineGroup, Machine, MachinesSummary]
+INFORMATION (FluentMapper): Add Inner to response types: [Port, Process, Connection, MapResponse, Liveness, MachineGroup, ClientGroupMember, Machine, MachinesSummary, ClientGroupMembersCount, ClientGroup]
 INFORMATION (FluentGen): Java template for client model
 INFORMATION (FluentGen): Process for Fluent Lite, SDK integration disabled
 INFORMATION (FluentJavaSettings): Option, string, tag : package-2015-11-preview
@@ -1386,12 +1386,12 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24685) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24267) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24685) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24685) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24267) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24267) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
 
 ```
