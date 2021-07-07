@@ -1,8 +1,8 @@
 # Java Codegen Report
-Generated at 2021-07-06T19:19:32.363435
+Generated at 2021-07-07T19:23:23.930722
 ## Success
 <details>
-<summary>RP count: 180</summary>
+<summary>RP count: 179</summary>
 
 - EnterpriseKnowledgeGraph
 - addons
@@ -168,7 +168,6 @@ Generated at 2021-07-06T19:19:32.363435
 - storagepool
 - storagesync
 - storsimple8000series
-- streamanalytics
 - subscription
 - support
 - synapse
@@ -194,6 +193,7 @@ Generated at 2021-07-06T19:19:32.363435
 ## Failure at Build
 - monitor
 - providerhub
+- streamanalytics
 
 ## Logs
 <details>
@@ -371,7 +371,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [GroupItem, AndroidMamPolicy, OperationResult, Location, Application, IOsmamPolicy, FlaggedEnrolledApp, WipeDeviceOperationResult, Device, FlaggedUser]
+INFORMATION (FluentMapper): Add Inner to response types: [FlaggedEnrolledApp, Location, Application, AndroidMamPolicy, OperationResult, IOsmamPolicy, FlaggedUser, WipeDeviceOperationResult, GroupItem, Device]
 
 ```
 **stderr**
@@ -555,8 +555,8 @@ Use --help to get help information.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.599 s
-[INFO] Finished at: 2021-07-06T18:48:02Z
+[INFO] Total time:  5.211 s
+[INFO] Finished at: 2021-07-07T18:50:14Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-monitor-generated: Compilation failure
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-monitor/src/main/java/azure/resourcemanager/monitor/models/ErrorResponseCommon.java:[45,38] getAdditionalInfo() in azure.resourcemanager.monitor.models.ErrorResponseCommon cannot override getAdditionalInfo() in com.azure.core.management.exception.ManagementError
@@ -806,8 +806,8 @@ java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.836 s
-[INFO] Finished at: 2021-07-06T18:55:13Z
+[INFO] Total time:  1.869 s
+[INFO] Finished at: 2021-07-07T18:57:53Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-providerhub-generated: Compilation failure: Compilation failure: 
 [ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-providerhub/src/main/java/azure/resourcemanager/providerhub/models/DefaultRolloutProperties.java:[39,1] class, interface, or enum expected
@@ -1085,7 +1085,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [InformationProtectionPolicy, Compliance, ServerVulnerabilityAssessment, IoTSecuritySolutionAnalyticsModel, AdaptiveApplicationControlGroup, Software, SecureScoreControlDefinitionItem, DeviceSecurityGroup, AutomationValidationStatus, IoTSecuritySolutionAnalyticsModelList, Scans, AlertsSuppressionRule, IotSitesList, IngestionSettingToken, AdvancedThreatProtectionSetting, ExternalSecuritySolution, Operation, RuleResults, SecuritySolution, IotDefenderSettingsModel, SecurityAssessmentMetadata, ComplianceResult, Pricing, SecureScoreItem, WorkspaceSetting, IotRecommendationModel, RegulatoryComplianceStandard, Automation, AllowedConnectionsResource, RulesResults, PricingList, IoTSecurityAggregatedAlert, ServerVulnerabilityAssessmentsList, IoTSecuritySolutionModel, SecuritySubAssessment, IotSensorsList, ScanResults, PackageDownloads, JitNetworkAccessPolicy, AdaptiveNetworkHardening, ConnectionStrings, AscLocation, IotAlertModel, OnPremiseIotSensor, SecurityTask, AutoProvisioningSetting, OnPremiseIotSensorsList, DiscoveredSecuritySolution, SecuritySolutionsReferenceDataList, Setting, IngestionSetting, Scan, IoTSecurityAggregatedRecommendation, IotSitesModel, ScanResult, RegulatoryComplianceAssessment, IotRecommendationTypeList, SecurityContact, IotAlertTypeList, TopologyResource, Device, IotAlertType, IotRecommendationType, JitNetworkAccessRequest, SecureScoreControlDetails, RegulatoryComplianceControl, ConnectorSetting, IotDefenderSettingsList, AdaptiveApplicationControlGroups, IotSensorsModel, SecurityAssessment, Alert]
+INFORMATION (FluentMapper): Add Inner to response types: [SecurityAssessmentMetadata, IotAlertTypeList, AutoProvisioningSetting, PackageDownloads, Setting, ExternalSecuritySolution, Automation, IotDefenderSettingsList, AdvancedThreatProtectionSetting, SecuritySubAssessment, SecuritySolution, IotSensorsModel, IotAlertType, IoTSecurityAggregatedAlert, TopologyResource, DeviceSecurityGroup, AdaptiveApplicationControlGroups, IotSitesModel, IoTSecuritySolutionAnalyticsModelList, SecurityTask, SecurityAssessment, RulesResults, WorkspaceSetting, IotRecommendationTypeList, IngestionSettingToken, RegulatoryComplianceStandard, OnPremiseIotSensor, Alert, Device, SecurityContact, Compliance, Scans, InformationProtectionPolicy, AllowedConnectionsResource, IotRecommendationType, IoTSecurityAggregatedRecommendation, IotDefenderSettingsModel, IotRecommendationModel, AlertsSuppressionRule, AutomationValidationStatus, AdaptiveApplicationControlGroup, OnPremiseIotSensorsList, RuleResults, IotAlertModel, ScanResult, DiscoveredSecuritySolution, AscLocation, RegulatoryComplianceControl, ConnectionStrings, IngestionSetting, SecureScoreItem, SecureScoreControlDetails, SecuritySolutionsReferenceDataList, IotSensorsList, IoTSecuritySolutionModel, ServerVulnerabilityAssessmentsList, IotSitesList, Scan, Operation, JitNetworkAccessPolicy, JitNetworkAccessRequest, Software, IoTSecuritySolutionAnalyticsModel, RegulatoryComplianceAssessment, ScanResults, ServerVulnerabilityAssessment, Pricing, ComplianceResult, AdaptiveNetworkHardening, SecureScoreControlDefinitionItem, PricingList, ConnectorSetting]
 INFORMATION (FluentMapper): Add Inner for type 'SecureScoreControlDefinitionItem': []
 
 ```
@@ -1367,7 +1367,7 @@ INFORMATION (FluentJavaSettings): Option, string, pom-file : null
 INFORMATION (FluentJavaSettings): Option, string, package-version : null
 INFORMATION (FluentJavaSettings): Option, boolean, sdk-integration : null
 INFORMATION (FluentGen): Map code model to client model
-INFORMATION (FluentMapper): Add Inner to response types: [Port, MapResponse, Process, Connection, Liveness, ClientGroupMember, ClientGroup, ClientGroupMembersCount, MachineGroup, Machine, MachinesSummary]
+INFORMATION (FluentMapper): Add Inner to response types: [ClientGroupMembersCount, MapResponse, Connection, Port, ClientGroupMember, Process, ClientGroup, Machine, MachinesSummary, MachineGroup, Liveness]
 INFORMATION (FluentGen): Java template for client model
 INFORMATION (FluentGen): Process for Fluent Lite, SDK integration disabled
 INFORMATION (FluentJavaSettings): Option, string, tag : package-2015-11-preview
@@ -1386,13 +1386,100 @@ INFORMATION (FluentGen): Write Text
 ```
 FATAL: Failed validating: 'file:///home/runner/work/autorest.java/autorest.java/azure-rest-api-specs/specification/service-map/resource-manager/Microsoft.OperationalInsights/preview/2015-11-01-preview/arm-service-map.json', error encountered: TypeError: Cannot read property 'properties' of undefined
 FATAL: [object Object]
-(node:24297) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
+(node:24489) UnhandledPromiseRejectionWarning: Error: Plugin model-validator reported failure.
     at /home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/plugins/external.js:27:19
     at async ScheduleNode (/home/runner/.autorest/@autorest_core@3.0.6350/node_modules/@autorest/core/dist/lib/pipeline/pipeline.js:314:33)
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:24297) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
-(node:24297) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:24489) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 60)
+(node:24489) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
   Error: Plugin model-validator reported failure.
+
+```
+</details>
+
+<details>
+<summary>streamanalytics</summary>
+
+**stdout**
+```
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< com.azure.resourcemanager:azure-resourcemanager-streamanalytics-generated >--
+[INFO] Building Microsoft Azure SDK for StreamAnalytics Management 1.0.0-beta.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ azure-resourcemanager-streamanalytics-generated ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ azure-resourcemanager-streamanalytics-generated ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 255 source files to /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/QueryTestingResultImpl.java:[23,33] cannot find symbol
+  symbol:   method status()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.QueryTestingResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/QueryTestingResultImpl.java:[27,33] cannot find symbol
+  symbol:   method outputUri()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.QueryTestingResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/TestDatasourceResultImpl.java:[23,33] cannot find symbol
+  symbol:   method status()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.TestDatasourceResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[25,33] cannot find symbol
+  symbol:   method status()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[29,47] cannot find symbol
+  symbol:   method diagnostics()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[38,33] cannot find symbol
+  symbol:   method eventsDownloadUrl()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[42,33] cannot find symbol
+  symbol:   method lastArrivalTime()
+  location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[INFO] 7 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.186 s
+[INFO] Finished at: 2021-07-07T19:14:55Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project azure-resourcemanager-streamanalytics-generated: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/QueryTestingResultImpl.java:[23,33] cannot find symbol
+[ERROR]   symbol:   method status()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.QueryTestingResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/QueryTestingResultImpl.java:[27,33] cannot find symbol
+[ERROR]   symbol:   method outputUri()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.QueryTestingResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/TestDatasourceResultImpl.java:[23,33] cannot find symbol
+[ERROR]   symbol:   method status()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.TestDatasourceResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[25,33] cannot find symbol
+[ERROR]   symbol:   method status()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[29,47] cannot find symbol
+[ERROR]   symbol:   method diagnostics()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[38,33] cannot find symbol
+[ERROR]   symbol:   method eventsDownloadUrl()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] /home/runner/work/autorest.java/autorest.java/fluent_generated/azure-resourcemanager-streamanalytics/src/main/java/azure/resourcemanager/streamanalytics/implementation/SampleInputResultImpl.java:[42,33] cannot find symbol
+[ERROR]   symbol:   method lastArrivalTime()
+[ERROR]   location: class azure.resourcemanager.streamanalytics.fluent.models.SampleInputResultInner
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+```
+**stderr**
+```
 
 ```
 </details>
